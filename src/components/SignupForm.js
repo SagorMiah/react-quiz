@@ -32,7 +32,10 @@ const Form = () => {
   };
 
   return (
-    <form className="w-1/2 mt-10" onSubmit={handleSubmit}>
+    <form
+      className="md:w-1/2 w-full my-auto mt-10 pb-10 md:pb-0"
+      onSubmit={handleSubmit}
+    >
       <input
         className="rounded-md w-full mb-4 p-2"
         type="text"

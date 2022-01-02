@@ -5,7 +5,7 @@ import signup from "../images/signup.svg";
 
 const Signup = () => {
   return (
-    <div className="flex justify-between">
+    <div className="flex justify-between flex-wrap">
       <Content text="Create your account" img={signup} />
       <Form />
     </div>

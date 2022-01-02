@@ -111,12 +111,14 @@ const Quiz = () => {
               handleChange={handleAnserChange}
             />
           </div>
-          <ProgressBar
-            next={nextQuestion}
-            prev={prevQuestion}
-            submit={submit}
-            progress={precentage}
-          />
+          <div className="w-full h-20 bg-blue-500">
+            <ProgressBar
+              next={nextQuestion}
+              prev={prevQuestion}
+              submit={submit}
+              progress={precentage}
+            />
+          </div>
           <MiniPlayer id={id} title={videoTitle} />
         </>
       )}

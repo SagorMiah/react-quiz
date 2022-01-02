@@ -26,7 +26,7 @@ const LoginForm = () => {
       });
   };
   return (
-    <form className="w-1/2 mt-20" onSubmit={handleSubmit}>
+    <form className="md:w-1/2 w-full mt-20 md:my-auto" onSubmit={handleSubmit}>
       <input
         className="rounded-md w-full mb-4 p-2"
         type="email"

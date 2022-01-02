@@ -5,7 +5,7 @@ import login from "../images/login.svg";
 
 const Login = () => {
   return (
-    <div className="flex justify-between">
+    <div className="flex justify-between flex-wrap h-full">
       <Content text="Login to your account" img={login} />
       <LoginForm />
     </div>

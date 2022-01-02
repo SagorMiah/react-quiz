@@ -8,7 +8,7 @@ const Answers = ({ options = [], handleChange, input }) => {
           {input ? (
             <label
               key={index}
-              className="answers bg-gray-300 px-4 py-3 mb-3 rounded-md flex items-center cursor-pointer"
+              className="w-full sm:w-one bg-gray-300 px-4 py-3 mb-3 rounded-md flex items-center cursor-pointer"
             >
               <input
                 value={index}
@@ -21,7 +21,7 @@ const Answers = ({ options = [], handleChange, input }) => {
           ) : (
             <label
               key={index}
-              className={`answers bg-gray-300 px-4 py-3 mb-3 rounded-md flex items-center cursor-pointer ${
+              className={`w-full sm:w-one bg-gray-300 px-4 py-3 mb-3 rounded-md flex items-center cursor-pointer ${
                 option.correct
                   ? "bg-blue-500 text-white"
                   : option.checked
