@@ -111,7 +111,7 @@ const Quiz = () => {
               handleChange={handleAnserChange}
             />
           </div>
-          <div className="w-full h-20 bg-blue-500">
+          <div className="w-full h-28 bg-progressBg fixed bottom-0 left-0">
             <ProgressBar
               next={nextQuestion}
               prev={prevQuestion}
